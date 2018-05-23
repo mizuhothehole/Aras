@@ -1,0 +1,8 @@
+Research on the Aras client configuration.
+
+1) As I am the windows OS using the Chrome, so I looked into the windows documents.
+It told me to disable the pop-up blocker. Which means to change some settings in the settings of Chrome.
+In my case, it is under:
+chrome://settings/content/popups
+
+And I may add the url that is supposed to.
