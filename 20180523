@@ -14,3 +14,8 @@ Internet Information Service。 这个东西也就是微软的一个大的服务
 
 About the SQL server data files and log files. The best practice is to seperate all them into RAID. But in fact, I am using a virtual PC.
 So, anyway, let me seperate the data file and the log files into seperated disks.
+
+这里面我参考了下面两个文章。
+一个是教我们怎么在windows server上面给磁盘分区。也就是多一个驱动。
+另外一个是怎么去迁移SQL Server的data file 和 log file。
+简单说就是detach 》 attach。另外需要的是手动的复制和粘贴。（针对实际的log file文件和data file文件）
