@@ -18,4 +18,8 @@ So, anyway, let me seperate the data file and the log files into seperated disks
 这里面我参考了下面两个文章。
 一个是教我们怎么在windows server上面给磁盘分区。也就是多一个驱动。
 另外一个是怎么去迁移SQL Server的data file 和 log file。
-简单说就是detach 》 attach。另外需要的是手动的复制和粘贴。（针对实际的log file文件和data file文件）
+简单说就是detach 》 attach。另外需要的是手动的复制和粘贴物理文件。（针对实际的log file文件和data file文件）
+
+http://www.thewindowsclub.com/move-microsoft-sql-server-database
+
+如果遇到了只读文件错误，就需要去在windows的OS上面去把物理文件的权限给赋予上。
