@@ -6,3 +6,8 @@ In my case, it is under:
 chrome://settings/content/popups
 
 And I may add the url that is supposed to.
+
+Windows server 下面的IIS版本是什么？怎么看？
+这个可以从IIS下面的一个所谓的IIS管理器里面的帮助里面看到。
+Internet Information Service。 这个东西也就是微软的一个大的服务之一。系统组件。
+我配置是Windows Server 2016.
