@@ -1,0 +1,22 @@
+The Aras free research
+
+1. I found in DB there is always a table name called innovator.Z_STUDENT or something else if I created some new itemtypes.
+2. -----------------------------------------------------------
+76FA86B7D60243298C8EA76BAF1A80A9
+76FA86B7D60243298C8EA76BAF1A80A9
+
+我在用filter的时候发现了这么个东西。
+结果发现filter之后，给我出来个用不了的选项。（这个感觉可以调查一下）
+
+这个应该是什么呢？
+我们去DB看看吧
+
+innovator.ZR_STUDENT_SCORE 这个表：
+related_id 这么个字段里面有这个id
+
+innovator.Z_SCORE 这个表：
+id和KEYED_NAME 这两个字段，都有这个数值
+
+可以差不多知道，这个东西是记录的实例在表里面id。
+
+3.建立relation ship 的时候，一个是itemtype的tap on的checkbox，另一个是relationship的require related，这两个选上的话，就会看到数据之间的关联
