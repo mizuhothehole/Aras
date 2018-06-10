@@ -1,0 +1,8 @@
+Aras itemtype property data type and form filed
+
+I found some relationship about these data types in itemtype property and form elements(field).
+
+data > a calendar box
+string > a on line input box
+text > a text box
+boolean > a checkbox
