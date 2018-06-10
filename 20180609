@@ -19,4 +19,7 @@ id和KEYED_NAME 这两个字段，都有这个数值
 
 可以差不多知道，这个东西是记录的实例在表里面id。
 
-3.建立relation ship 的时候，一个是itemtype的tap on的checkbox，另一个是relationship的require related，这两个选上的话，就会看到数据之间的关联
+3.建立relation ship 的时候，一个是itemtype的tap on的checkbox，另一个是relationship的require related，这两个选上的话，就会看到数据之间的关联.
+
+还有周六的时候王讲的几个重要的名词，比如说property，我理解的是，对象的属性，另外是field，我理解的是表单里面的一个个的元素。比方说一个输入框，一个文本
+框等等。
